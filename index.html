@@ -2,16 +2,50 @@
 <html lang="ka">
 <head>
   <meta charset="UTF-8">
-  <title>ჩემი პირველი საიტი</title>
+  <title>AIA Systems</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>გამარჯობა, ეს ჩემი პირველი საიტია</h1>
-  <p>ეს საიტი გაკეთებულია HTML, CSS და JavaScript-ით.</p>
+  <header>
+    <h2>AIA Systems</h2>
+    <nav>
+      <a href="#services">სერვისები</a>
+      <a href="#about">ჩვენ შესახებ</a>
+      <a href="#contact">კონტაქტი</a>
+    </nav>
+  </header>
 
-  <button onclick="showMessage()">დამაჭირე</button>
+  <section class="hero">
+    <h1>თანამედროვე IT გადაწყვეტილებები ბიზნესისთვის</h1>
+    <p>ვებ-დეველოპმენტი, ქსელები, სერვერები, კიბერუსაფრთხოება და AI სისტემები.</p>
+    <a href="#contact" class="btn">დაგვიკავშირდით</a>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="services" class="section">
+    <h2>ჩვენი სერვისები</h2>
+    <div class="cards">
+      <div class="card">ვებ-დეველოპმენტი</div>
+      <div class="card">ქსელები და სერვერები</div>
+      <div class="card">კიბერუსაფრთხოება</div>
+      <div class="card">AI გადაწყვეტილებები</div>
+    </div>
+  </section>
+
+  <section id="about" class="section dark">
+    <h2>ჩვენ შესახებ</h2>
+    <p>AIA Systems ქმნის საიმედო, თანამედროვე და მასშტაბირებად IT გადაწყვეტილებებს ორგანიზაციებისთვის.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>კონტაქტი</h2>
+    <p>Email: info@aiasystems.ge</p>
+    <p>Location: Tbilisi, Georgia</p>
+  </section>
+
+  <footer>
+    <p>© 2026 AIA Systems. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
