@@ -56,3 +56,17 @@ button:hover {
   color: #555;
   line-height: 1.6;
 }
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #60a5fa;
+}.hero {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
