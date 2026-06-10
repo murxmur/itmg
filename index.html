@@ -2,67 +2,94 @@
 <html lang="ka">
 <head>
   <meta charset="UTF-8">
-  <title>AIA Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIA Systems | IT Solutions</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-  <div class="logo">
-  <span>AIA</span> Systems
-</div>
-    <nav>
-      <a href="#services">სერვისები</a>
-      <a href="#about">ჩვენ შესახებ</a>
-      <a href="#contact">კონტაქტი</a>
-    </nav>
-  </header>
+<header class="header">
+  <div class="logo"><span>AIA</span> Systems</div>
+  <nav>
+    <a href="#services">სერვისები</a>
+    <a href="#about">ჩვენ შესახებ</a>
+    <a href="#projects">პროექტები</a>
+    <a href="#contact">კონტაქტი</a>
+  </nav>
+</header>
 
-  <section class="hero">
+<section class="hero">
+  <div class="hero-content">
+    <p class="badge">IT • Cybersecurity • AI</p>
     <h1>თანამედროვე IT გადაწყვეტილებები ბიზნესისთვის</h1>
-    <p>ვებ-დეველოპმენტი, ქსელები, სერვერები, კიბერუსაფრთხოება და AI სისტემები.</p>
+    <p>
+      ვქმნით საიმედო ვებ-სისტემებს, ქსელურ ინფრასტრუქტურას,
+      კიბერუსაფრთხოების და AI გადაწყვეტილებებს.
+    </p>
     <a href="#contact" class="btn">დაგვიკავშირდით</a>
-  </section>
-
-  <section id="services" class="section">
-    <h2>ჩვენი სერვისები</h2>
-   <div class="cards">
-  <div class="card">
-    <h3>🌐 Web Development</h3>
-    <p>კორპორატიული ვებსაიტები, პორტალები და API ინტეგრაციები.</p>
   </div>
+</section>
 
-  <div class="card">
-    <h3>🖥 Infrastructure</h3>
-    <p>სერვერები, ვირტუალიზაცია, მონაცემთა ცენტრები და ქსელები.</p>
+<section id="services" class="section">
+  <h2>ჩვენი სერვისები</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🌐 Web Development</h3>
+      <p>კორპორატიული ვებსაიტები, პორტალები, API და ბიზნეს სისტემები.</p>
+    </div>
+    <div class="card">
+      <h3>🖥 Infrastructure</h3>
+      <p>სერვერები, ქსელები, ვირტუალიზაცია, backup და მონიტორინგი.</p>
+    </div>
+    <div class="card">
+      <h3>🔒 Cyber Security</h3>
+      <p>უსაფრთხოების აუდიტი, პოლიტიკები, დაცვა და რისკების შემცირება.</p>
+    </div>
+    <div class="card">
+      <h3>🤖 AI Solutions</h3>
+      <p>Chatbot, RAG, დოკუმენტების ანალიზი და პროცესების ავტომატიზაცია.</p>
+    </div>
   </div>
+</section>
 
-  <div class="card">
-    <h3>🔒 Cyber Security</h3>
-    <p>უსაფრთხოების აუდიტი, პოლიტიკები და დაცვის სისტემები.</p>
+<section id="about" class="section dark">
+  <h2>ჩვენ შესახებ</h2>
+  <p>
+    AIA Systems არის ტექნოლოგიური გუნდი, რომელიც ეხმარება ორგანიზაციებს
+    ციფრულ ტრანსფორმაციაში, უსაფრთხო ინფრასტრუქტურის შექმნასა და თანამედროვე
+    IT სერვისების განვითარებაში.
+  </p>
+</section>
+
+<section id="projects" class="section">
+  <h2>მიმართულებები</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Enterprise Systems</h3>
+      <p>დიდი ორგანიზაციებისთვის მასშტაბირებადი სისტემების დაგეგმვა და განვითარება.</p>
+    </div>
+    <div class="card">
+      <h3>Access & CCTV</h3>
+      <p>დაშვების კონტროლი, სამუშაო დროის აღრიცხვა და ვიდეო მონიტორინგი.</p>
+    </div>
+    <div class="card">
+      <h3>Cloud & Hybrid</h3>
+      <p>ონ-პრემ და ჰიბრიდული ინფრასტრუქტურის დაგეგმვა და მხარდაჭერა.</p>
+    </div>
   </div>
+</section>
 
-  <div class="card">
-    <h3>🤖 AI Solutions</h3>
-    <p>RAG, Chatbot, დოკუმენტების ანალიზი და AI ავტომატიზაცია.</p>
-  </div>
-</div>
-  </section>
+<section id="contact" class="section contact">
+  <h2>კონტაქტი</h2>
+  <p>Email: info@aiasystems.ge</p>
+  <p>Location: Tbilisi, Georgia</p>
+  <button onclick="showMessage()">მოგვწერეთ</button>
+</section>
 
-  <section id="about" class="section dark">
-    <h2>ჩვენ შესახებ</h2>
-    <p>AIA Systems ქმნის საიმედო, თანამედროვე და მასშტაბირებად IT გადაწყვეტილებებს ორგანიზაციებისთვის.</p>
-  </section>
+<footer>
+  <p>© 2026 AIA Systems. All rights reserved.</p>
+</footer>
 
-  <section id="contact" class="section">
-    <h2>კონტაქტი</h2>
-    <p>Email: info@aiasystems.ge</p>
-    <p>Location: Tbilisi, Georgia</p>
-  </section>
-
-  <footer>
-    <p>© 2026 AIA Systems. All rights reserved.</p>
-  </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
